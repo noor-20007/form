@@ -1,0 +1,34 @@
+body{
+    background-color: #003;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color: #0000889f;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+form input{
+    background-color: #0000aaa0;
+    border: none;
+    outline: none;
+    color: antiquewhite;
+    padding: 5px 10px;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+button{
+    background-color: #14a;
+    border: none;
+    color: antiquewhite;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: flex;
+    flex-basis: 30px;
+    justify-content: center;
+    flex-grow: 1;
+}
